@@ -1,0 +1,12 @@
+<div class="container">
+  <h1><%= @list.name %></h1>
+
+  <div class="row mt-3">
+    <%= link_to new_list_bookmark_path(@list) do %>
+    <p><i class="fa-solid fa-plus"></i>Add new bookmark</p>
+  <% end %>
+    <%= link_to lists_path do %>
+      <p><i class="fa-solid fa-rotate-left "></i>Back to lists</p>
+    <% end %>
+  </div>
+</div>

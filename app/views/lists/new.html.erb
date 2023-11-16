@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>New list</h1>
+  <%= render "form", list: @list %>
+  <div class="row mt-3">
+    <%= link_to lists_path do %>
+      <p><i class="fa-solid fa-rotate-left "></i>Back to lists</p>
+    <% end %>
+  </div>
+</div>
