@@ -28,6 +28,8 @@ gem "jbuilder"
 
 gem "dotenv-rails"
 
+gem "cloudinary"
+
 gem "bootstrap", "~> 5.2"
 
 gem "autoprefixer-rails"
